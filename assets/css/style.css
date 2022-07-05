@@ -56,10 +56,7 @@ body {
 } */
 
 
-.img-box {
 
-    width: 15%;
-}
 
 /* card 1 */
 .card-header {
@@ -165,4 +162,87 @@ body {
 
 .last-row {
     border-right: 0px !important;
+}
+
+
+
+
+/* ////////////// R E S P O N S I V E/////////// */
+
+/* nav bar */
+
+@media (max-width:768px) {
+.table-box{
+    overflow-x:scroll;
+}
+.table{
+    padding: 15px;
+}
+
+.card-box{
+    padding: 15px   ;
+}
+}
+
+
+
+
+
+/* ############page patients ###############*/
+.card-patients {
+    text-align: center;
+    background-color: #00b8ad;
+    /* border-radius: 25px !important; */
+}
+.table-box-2 {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 0px;
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+}
+.row-pa{
+    border: right 0px !important; ;
+}
+.icon-box{
+    padding: 10px;
+    background-color: #fff2b3;
+}
+.icon-box i{
+            font-size: 30px;
+            color: #fed100;
+}
+.card-parient{
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+}
+.icon-text{
+    padding-top: 15px;
+}
+.icon-text p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.card-text{
+    font-size: 40px;
+
+}
+.card-text h5{
+    font-size: 12px;
+    color:#fed100;
+    font-weight: bold;
+}
+.button-patient{
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    color:black;
+    border: none;
+    background-color: #fff2b3 !important;
+    border-radius: 30px;
+    padding: 15px 40px !important;
+    width: 100%;
 }
