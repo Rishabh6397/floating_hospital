@@ -3,8 +3,13 @@
     padding: 0px;
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #ced4da; */
+}
+
 .nav-bar {
-    background-color: #a29a9a;
+    background-color: #ced4da;
 }
 
 
@@ -15,16 +20,32 @@
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin: 0 15px;
-    padding: 15px 40px !important;
+    padding: 8px 35px !important;
     border-radius: 30px;
 }
 
+.navbar-nav {
+    padding: 8px 14px;
+    background-color: #f3f3f3;
+    border-radius: 45px;
+}
+
 .menu a:hover {
-    color: #fff !important;  
+    color: #fff !important;
     border-radius: 30px;
     background-color: #00B8AD;
     margin: 0 15px;
-    padding: 15px 40px !important;  
+    padding: 8px 35px !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff !important;
+    border-radius: 30px;
+    background-color: #00B8AD;
+    margin: 0 15px;
+    padding: 8px 35px !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* .navbarli li {
@@ -41,17 +62,21 @@
 }
 
 /* card 1 */
-.card-header{
-    color:#fff;
+.card-header {
+    color: #fff;
+    background: none;
 }
-.card{
+
+.card {
     text-align: center;
     background-color: #00b8ad;
+    border-radius: 25px !important;
 }
-.card-title{
+
+.card-title {
     font-size: 60px;
-    color:white;
-    
+    color: white;
+
 }
 
 
@@ -61,15 +86,17 @@
     margin-top: 15px;
     color: #fff;
     border: none;
-    background-color: #00B8AD !important;
-border-radius: 30px;
-padding: 15px 40px !important; 
+    background-color: #fff !important;
+    border-radius: 30px;
+    padding: 15px 40px !important;
 }
-.card-2{
+
+.card-2 {
     text-align: center;
     background-color: #FED100;
 }
-.card-3{
+
+.card-3 {
     text-align: center;
     background-color: #DF4132;
 }
@@ -77,17 +104,65 @@ padding: 15px 40px !important;
 
 /* navbar design */
 
-.navbar-nav {
-    padding: 12px 10px;
-    background-color: #f3f3f3;
-    border-radius: 45px;
-}
 
-.navbar-nav .nav-link.active {
-    color: #fff !important;  
+
+/* .navbar-nav .nav-link.active {
+    color: #fff !important;
     border-radius: 30px;
     background-color: #00B8AD;
-    margin: 0 15px;
-    padding: 15px 40px !important;
+    margin: 9px 15px;
+    padding: 6px 30px !important;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.nav-button {
+    background-color: #00b8ad !important;
+    color: #fff !important;
+    margin-top: 0px !important;
+}
+
+/* attendence */
+
+.form-select {
+    width: 75%;
+    padding: 10px 20px;
+    border: 1px solid #ced4da;
+    border-radius: 21px;
+}
+
+.heading h4 {
+    font-weight: bold;
+}
+
+.heading p {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.attendence {
+    margin-top: 50px;
+}
+
+/* card box */
+.card-box {
+    margin: 80px 0px;
+}
+
+/* table styling */
+.table-box {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.15);
+}
+
+.row-1 {
+    border-bottom: 2px solid #ced4da;
+    border-right: none !important;
+}
+
+.last-row {
+    border-right: 0px !important;
 }
