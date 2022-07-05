@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendence</title>
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- header start here -->
+
+    <div class="container-fluid nav-bar p-3">
+        <div class="row">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <div class="img-box">
+                    <img src="./assets/img/logo-01.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 text-center menu d-flex align-items-center justify-content-center">
+                <nav class="navbar navbar-expand-lg">
+                    <!-- Container wrapper -->
+                    <div class="container-fluid">
+                        <!-- Toggle button -->
+                        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+
+                        <!-- Collapsible wrapper -->
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                            <!-- Left links -->
+                            <ul class="navbar-nav navbarli mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="table.html">Attendence</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Patients</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Resources</a>
+                                </li>
+
+
+
+                            </ul>
+                            <!-- Left links -->
+                        </div>
+                        <!-- Collapsible wrapper -->
+                    </div>
+                    <!-- Container wrapper -->
+                </nav>
+            </div>
+            <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+                <div class="button_main">
+                    <button class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header close here -->
+
+
+    <!-- attendence section start here -->
+
+    <section class="attendence mt-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3>Todays attendence</h3>
+                    <p><b>Date:</b>2/05/2015</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-6"><select id="Select" class="form-select">
+                                <option>Select State</option>
+                                <option>Delhi</option>
+                                <option>South Delhi</option>
+                                <option>North Delhi</option>
+                                <option>Rajasthan</option>
+                            </select></div>
+                        <div class="col-6"><select id="Select" class="form-select">
+                                <option>Select State</option>
+                                <option>Delhi</option>
+                                <option>South Delhi</option>
+                                <option>North Delhi</option>
+                                <option>Rajasthan</option>
+                            </select></div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- cards start here-->
+    <section class="card-box mt-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-header">
+                            On site
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">30</h5>
+
+                            <a href="#" class="btn btn-primary">View list</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="card card-2">
+                        <div class="card-header">
+                            On site
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">30</h5>
+
+                            <a href="#" class="btn btn-primary">View list</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card card-3">
+                        <div class="card-header">
+                            On site
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">30</h5>
+
+                            <a href="#" class="btn btn-primary">View list</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+    </section>
+
+    <!-- table start here -->
+    <section class="table mt-5">
+
+        <div class="container">
+            <table border="2px" style="text-align: center;">
+                <tr>
+                    <th>Sno.</th>
+                    <th width="15.5%">Date</th>
+                    <th width="15.5%">Name</th>
+                    <th width="20.5%">Department</th>
+                    <th width="20.5%"> Attendence</th>
+                    <th width="10.5%">Total present</th>
+                    <th width="14.5%">Total Absent</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>1/12/2022</td>
+                    <td>Rishabh thakur</td>
+                    <td>Podailty</td>
+                    <td>059</td>
+                    <td>059</td>
+                    <td>059</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1/12/2022</td>
+                    <td>Rishabh thakur</td>
+                    <td>Podailty</td>
+                    <td>059</td>
+                    <td>059</td>
+                    <td>059</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1/12/2022</td>
+                    <td>Rishabh thakur</td>
+                    <td>Podailty</td>
+                    <td>059</td>
+                    <td>059</td>
+                    <td>059</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1/12/2022</td>
+                    <td>Rishabh thakur</td>
+                    <td>Podailty</td>
+                    <td>059</td>
+                    <td>059</td>
+                    <td>059</td>
+                </tr>
+
+            </table>
+
+        </div>
+    </section>
+    <!-- table closed -->
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

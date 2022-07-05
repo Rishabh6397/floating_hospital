@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    background-color: #a29a9a;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #00b8ad;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 15px;
+    padding: 15px 40px !important;
+    border-radius: 30px;
+}
+
+.menu a:hover {
+    color: #fff !important;  
+    border-radius: 30px;
+    background-color: #00B8AD;
+    margin: 0 15px;
+    padding: 15px 40px !important;  
+}
+
+/* .navbarli li {
+    color: #fff;
+    padding: 0 20px;
+    background-color: #00B8AD;
+    margin: 0 15px;
+} */
+
+
+.img-box {
+
+    width: 15%;
+}
+
+/* card 1 */
+.card-header{
+    color:#fff;
+}
+.card{
+    text-align: center;
+    background-color: #00b8ad;
+}
+.card-title{
+    font-size: 60px;
+    color:white;
+    
+}
+
+
+.btn-primary {
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: #fff;
+    border: none;
+    background-color: #00B8AD !important;
+border-radius: 30px;
+padding: 15px 40px !important; 
+}
+.card-2{
+    text-align: center;
+    background-color: #FED100;
+}
+.card-3{
+    text-align: center;
+    background-color: #DF4132;
+}
+
+
+/* navbar design */
+
+.navbar-nav {
+    padding: 12px 10px;
+    background-color: #f3f3f3;
+    border-radius: 45px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff !important;  
+    border-radius: 30px;
+    background-color: #00B8AD;
+    margin: 0 15px;
+    padding: 15px 40px !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}

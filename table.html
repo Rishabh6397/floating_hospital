@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabel data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <style>
+        table,
+        th,
+        td {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header start here -->
+
+    <div class="container-fluid nav-bar p-3">
+        <div class="row">
+            <div class="col-lg-4 d-flex align-items-center justify-content-center">
+                <div class="img-box">
+                    <img src="./assets/img/logo-01.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-lg-4 text-center menu d-flex align-items-center justify-content-center">
+                <nav class="navbar navbar-expand-lg">
+                    <!-- Container wrapper -->
+                    <div class="container-fluid">
+                        <!-- Toggle button -->
+                        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                            data-mdb-target="#navbarCenteredExample" aria-controls="navbarCenteredExample"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+
+                        <!-- Collapsible wrapper -->
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarCenteredExample">
+                            <!-- Left links -->
+                            <ul class="navbar-nav navbarli mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="table.html">Attendence</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Patients</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Resources</a>
+                                </li>
+
+
+
+                            </ul>
+                            <!-- Left links -->
+                        </div>
+                        <!-- Collapsible wrapper -->
+                    </div>
+                    <!-- Container wrapper -->
+                </nav>
+            </div>
+            <div class="col-lg-4 text-center d-flex align-items-center justify-content-center">
+                <div class="button_main">
+                    <button class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header close here -->
+    <!-- table start here -->
+    <section class="table mt-0">
+
+        <div class="container-fluid p-0">
+
+            <table border="1px" class="table" style="text-align:center;">
+                <tr>
+                    <th rowspan="2">S.no.</th>
+                    <th rowspan="2"> Date</th>
+                    <th style="background: #f49ffc;">Lic DHS</th>
+                    <th style="background: #f49ffc;">Lic CHC</th>
+                    <th colspan="2" style="background: #a688fa;">HELP MORRIS</th>
+                    <th style="background: #678ef7;">QUEENSBRIDGE</th>
+                    <th style="background: #c6ff94;">ASTORIA</th>
+                    <th colspan="2" style="background: #e9fd7a;">DENTAL</th>
+                    <th style="background: #04f0fd;">PODIATRY</th>
+                    <th style="background: #f6a8a8;">ID Clinic</th>
+                    <th colspan="4" style="background: #c3c4c6;">PODIATRY</th>
+
+                </tr>
+                <tr>
+                    <th>3MEDICAL PROVIDERS</th>
+                    <th>1 MEDICAL PROVIDER</th>
+                    <th>Medical</th>
+                    <th>BH</th>
+                    <th>Total</th>
+                    <th>Total</th>
+                    <th>DHS</th>
+                    <th>CHC</th>
+                    <th>Total</th>
+                    <th>CHC Teleheal</th>
+                    <th>CHC In Person</th>
+                    <th>DHS Telehealth</th>
+                    <th>DHS In Person</th>
+                </tr>
+
+                <tr>
+                    <td> 1.</td>
+                    <td>20/9/2002</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>100</td>
+                </tr>
+
+
+                <!-- <tr>
+                        <th rowspan="2" width="2%">S.no.</th>
+                        <th rowspan="2" width="10%"> Date</th>
+                        <th colspan="1" bgcolor="#f49ffb">LIC DHS</th>
+                        <th colspan="1" bgcolor="#f49ffb"> LIC CHC </th>
+                        <th colspan="2" bgcolor="#a688fa">HELP MORRIS</th>
+                        <th colspan="1" bgcolor="#678df7">QUEENSBRIDGE</th>
+                        <th colspan="1" bgcolor="#c6ff93" class="text-dark">ASTORIA</th>
+                        <th colspan="2" bgcolor="#eafd7b" class="text-dark"> DENTAL </th>
+                        <th colspan="1" bgcolor="#04f0fc">PODIATRY</th>
+                        <th colspan="1" bgcolor="#f6a8a8">ID Clinic</th>
+                        <th colspan="4" bgcolor="#c2c4c6">PODIATRY</th>
+                        <th rowspan="2">Action</th>
+                      
+                    </tr>
+                    <tr>
+                        <th>3 MEDICAL PROVIDERS</th>
+                        <th>1 MEDICAL PROVIDER</th>
+                        <th>Medical</th>
+                        <th>BH</th>
+                        <th>Total</th>
+                        <th>Total</th>
+                        <th>DHS</th>
+                        <th>CHC</th>
+                        <th>Total</th>
+                        <th>Total</th>
+                        <th>CHC Telehealth</th>
+                        <th>CHC In Person</th>
+                        <th>DHS Telehealth</th>
+                        <th>DHS In Person</th>
+                    </tr> -->
+
+            </table>
+
+
+        </div>
+
+    </section>
+    <!-- table end here -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
