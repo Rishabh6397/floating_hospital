@@ -36,8 +36,14 @@ body {
     border-radius: 30px;
     background-color: #00B8AD;
     margin: 0 15px;
-    padding: 10px 35px !important;
+    padding: 8px 35px !important;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 80px !important;
 }
 
 /* .navbar-nav .nav-item.active {
@@ -101,6 +107,14 @@ body {
     background-color: #fff !important;
     border-radius: 30px;
     padding: 15px 40px !important;
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn-primary:active {
+    box-shadow: none;
 }
 
 .card-2 {
@@ -177,6 +191,11 @@ body {
 
 }
 
+td {
+    border-bottom: 0px !important;
+    border-right: 2px solid #ced4da;
+}
+
 .row-1 {
     border-bottom: 2px solid #ced4da;
     border-right: none !important;
@@ -201,10 +220,7 @@ body {
     box-shadow: 0px 1px 50px rgb(0 0 0 / 8%);
 }
 
-select option {
-
-    
-}
+select option {}
 
 
 
@@ -237,10 +253,6 @@ select option {
     box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.08);
 }
 
-.row-pa {
-    border: right 0px !important;
-    ;
-}
 
 .icon-box {
     padding: 16px;
@@ -316,6 +328,51 @@ select option {
     width: 100%;
 }
 
+/* index page css */
+
+.announcement {
+    margin: 50px 0px;
+}
+
+ .title {
+    margin: 30px 0px;
+}
+
+ .title H3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.announcement_list_box {
+    border: 0px solid grey;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 25px;
+}
+
+.announcement_list ul {
+    line-height: 2;
+}
+.patient_table{
+    margin: 50px 0px;
+}
+.attendance_table{
+    margin: 50px;
+}
+.attendance_box{
+    border: 0px solid grey;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 25px;
+    padding: 15px;
+}
+.out_today{
+border-right: 1px solid black;
+}
 
 
 
@@ -352,7 +409,7 @@ select option {
     }
 
     .button_main {
-        margin: auto;
+        margin: 20px auto;
     }
 
     .navbar-nav .nav-link.active {
@@ -361,7 +418,8 @@ select option {
 
     .navbar-nav {
         padding: 20px 75px;
-        margin: 17px 0px
+        margin: 17px 0px;
+        text-align: center;
     }
 
 }
