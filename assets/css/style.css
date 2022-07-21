@@ -334,11 +334,11 @@ select option {}
     margin: 50px 0px;
 }
 
- .title {
+.title {
     margin: 30px 0px;
 }
 
- .title H3 {
+.title H3 {
     font-size: 40px;
     font-weight: 700;
 }
@@ -355,13 +355,16 @@ select option {}
 .announcement_list ul {
     line-height: 2;
 }
-.patient_table{
+
+.patient_table {
     margin: 50px 0px;
 }
-.attendance_table{
+
+.attendance_table {
     margin: 50px;
 }
-.attendance_box{
+
+.attendance_box {
     border: 0px solid grey;
     background-color: white;
     -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.14);
@@ -370,10 +373,16 @@ select option {}
     border-radius: 25px;
     padding: 15px;
 }
-.out_today{
-border-right: 1px solid black;
+
+.out_today {
+    border-right: 1px solid black;
 }
 
+.view_align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 /* //////// ///////// R E S P O N S I V E  ////////////////////////////// */
