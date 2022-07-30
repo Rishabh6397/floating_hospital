@@ -75,27 +75,7 @@ body {
 
 
 
-/* card 1 */
-.card-header {
-    color: #fff;
-    background: none;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
-    box-shadow: 0px -2px 40px rgb(0 0 0 / 7%);
-}
 
-.card {
-    text-align: center;
-    background-color: #00b8ad;
-    border-radius: 25px !important;
-    border: 0px;
-    box-shadow: 0px 1px 40px rgb(0 0 0 / 7%);
-}
-
-.card-title {
-    font-size: 60px;
-    color: white;
-
-}
 
 
 .btn-primary {
@@ -128,18 +108,7 @@ body {
 }
 
 
-/* navbar design */
 
-
-
-/* .navbar-nav .nav-link.active {
-    color: #fff !important;
-    border-radius: 30px;
-    background-color: #00B8AD;
-    margin: 9px 15px;
-    padding: 6px 30px !important;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
-} */
 
 .nav-button {
     background-color: #00b8ad !important;
@@ -224,13 +193,6 @@ td {
 
 
 
-/* option {
-    padding: 50px !important;
-    background-color: #00b8ad !important;
-    margin: 50px;
-    line-height: 50;
-    color: #fff;
-} */
 
 
 
@@ -293,10 +255,10 @@ td {
     font-size: 20px;
 }
 
-.card-text {
+/* .card-text {
     font-size: 40px;
 
-}
+} */
 
 .card-text h5 {
     font-size: 12px;
@@ -333,10 +295,6 @@ td {
 .announcement {
     margin: 50px 0px;
 }
-
-/* .title {
-    margin: 30px 0px;
-} */
 
 .title H3 {
     font-size: 24px;
@@ -413,44 +371,104 @@ td {
 .reosource {
     margin: 80px 0px;
 }
-.reosource_main{
+
+.reosource_main {
     margin-bottom: 50px;
 }
-.resources_heading h3{
-    font-size: 25px;
 
+.resources_heading h3 {
+    font-size: 30px;
+    padding: 0px;
+    font-weight: 600;
 }
-.resources_title{
+
+.resources_title {
     font-size: 14px;
+    padding: 0px;
 }
 
-.res_img {
-    border: 1px solid black;
+.reosource_main .row:nth-child(1) {
+    /* border: 1px solid red; */
+    padding: 25px;
+    /* -webkit-box-shadow: 0px 0px 15px -4px rgba(153, 153, 153, 1);
+    -moz-box-shadow: 0px 0px 15px -4px rgba(153, 153, 153, 1);
+    box-shadow: 0px 0px 15px -4px rgba(153, 153, 153, 1); */
 }
 
-.res_img {
-    position: relative;
-}
+
+
+
+/* attachment css start  */
+
 
 .view_button {
 
     text-align: center;
     position: absolute;
-    bottom: 100px;
+    bottom: 30px;
+    left: 15px;
     width: 70%;
-    padding: 10px 5px 10px 6px;
+    /* padding: 0px 0px 0px 0px; */
     border: 1px solid white;
     display: none;
+    background: rgb(126, 126, 126);
+    background: rgb(241, 244, 249);
+    background: linear-gradient(10deg, rgba(241, 244, 249, 1) 5%, rgba(0, 184, 173, 0.2612395299916842) 100%);
 }
 
-.view_button a{
-    color: white;
+
+.view_button a {
+    color: black;
     z-index: 1;
+    text-decoration: none;
 }
 
-.res_img:hover .view_button{
+.atch:hover .view_button {
     display: block;
 }
+
+
+.aSI {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    height: 20px;
+    width: 20px;
+    border-right: solid 20px transparent;
+}
+
+.aSI .aSJ {
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: -20px;
+    border-width: 12px;
+    border-style: solid;
+    z-index: 3;
+}
+
+.aSI:after {
+    content: "";
+    font-size: 0;
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+
+    background-image: url('../img/tringle.png');
+
+    background-repeat: no-repeat;
+    background-position: -88px;
+
+    height: 30px;
+    width: 40px;
+    z-index: 4;
+}
+
+
+
+
 
 /* //////// ///////// R E S P O N S I V E  ////////////////////////////// */
 
